@@ -1,0 +1,31 @@
+body{
+     background-color: pink;
+     background-image: url(https://i.gifer.com/4Snl.gif);
+     background-repeat: no-repeat; 
+     background-size: 200px;
+     background-position: 100% 100%;
+     background-attachment: fixed;
+}
+p{
+     font-size: 15mm;
+     color: violet;
+     background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+     background-size: cover;
+}
+.img1{
+     width: 50%;
+     margin: auto;
+     display: block;
+     border-radius: 25%;
+     box-shadow: 20px 20px 50px yellow;
+}
+.img2{
+     width: 300px;
+     box-shadow: 20px -20px 50px yellow;
+}
+div{
+background: linear-gradient(rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5)), url(https://m.media-amazon.com/images/I/71q3DeSjlSL._AC_UF894,1000_QL80_.jpg);
+width: 200px;
+height: 150px;
+box-shadow: 20px 20px 50px yellow;
+}

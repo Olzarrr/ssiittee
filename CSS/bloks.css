@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+     background-color: skyblue;
+}
+p{
+   font-size: 50px;
+   color: green;
+   background-color: ivory;
+   text-align: center;
+   font-family: 'Lobster', cursive;
+   border: solid 5px green;
+   display: inline;
+}
+span{
+    border: dashed 2px hotpink;
+    display: inline;
+}
+ul{
+   list-style-type: none;
+}
+li{
+  display: inline;
+}
+a{
+  text-decoration: none;
+  border: dotted 5px black;
+  margin: 20px;
+  font-size: 24px;
+  color: royalblue;
+  background-color: orchid;
+}
+a:hover{
+       border: double; 5px black;
+       color: orchid;
+       background-color: royalblue;
+       box-shadow: 5px -5x royalblue;
+}
+.first{
+     width: 300px;
+     height: 300px;
+     background-color: ivory;
+     border: ridge 10px rosybrown;
+     font-size: 24px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 20px;
+}
+.second{
+      width: 500px;
+      height: 500px;
+      background-color: orchid;
+      border: groove 10px hotpink;
+} 
+.third, .fourth{
+      height: 150px;
+      width: 750px;
+      background-color: lightpink;
+      margin: 50px;
+      font-size: 24px;
+      padding: 20px;
+      border-top: dotted 5px red;
+}
+.third{
+      border-bottom: dashed 10px  lime;
+}
+.fourth{
+      border-bottom: double 10px orange;
+}
+
+.fifth{
+      width: 500px;
+      height: 500px;
+      background-color: orchid;
+      border: groove 10px hotpink;
+     font-size: 24px;
+     
+     
+    
+} 
+.sixth{
+      height: 350px;
+      width: 350px;
+      background-color: hotpink;
+      margin: 50px;
+      font-size: 24px;
+      padding: 20px;
+      border-top: dotted 5px red;
+      align-items: center;
+}
+.seventh{
+      height: 200px;
+      width: 200px;
+      background-color: lightpink;
+      margin: 50px;
+      font-size: 24px;
+      padding: 20px;
+      border-top: dotted 5px red;
+      align-items: center;
+}

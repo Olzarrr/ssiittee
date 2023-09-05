@@ -1,0 +1,16 @@
+body{
+    background-color: lightpink;
+    font-size: 24px;
+    color: blueviolet;
+}
+p{
+    font-size: 50px;
+    text-align: center;
+    background-color: lightcoral;
+    color: indigo;
+}
+.text1{
+     border: dotted 5px pink;
+     height: 30px;
+     background-color: lightslategray;
+}

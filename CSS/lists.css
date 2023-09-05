@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+body{
+    background-image: url(https://img.freepik.com/free-photo/grunge-concrete-material-background-texture-wall-concept_53876-42916.jpg);
+background-size: cover;
+}
+p{
+  font-size: 50px;
+  color: #005fab;
+  text-align: center;
+ font-family: 'Rubik Dirt', cursive;
+ text-shadow: 3px 3px pink, 5px 5px 8px violet;
+}
+ul,ol{
+   font-size: 24px;
+   color: #404040;
+   margin-left: 100px;
+}
+.square li::marker{
+    color: violet;
+    font-size: 1.5em;
+    }
+@counter-style circled-digits {
+  system: cyclic;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋 🐵;
+  suffix: " ";
+}
+
+ul.cd {
+  list-style: circled-digits;
+}
+@counter-style cs-symbolic {
+  system: symbolic;
+  symbols: '*' ⁑ † ‡;
+  range: 1 15;
+  suffix: " ";
+}
+
+ul.dd {
+  list-style: cs-symbolic;
+}
+@counter-style cs-numeric {
+  system: numeric;
+  symbols: A B C D E;
+  suffix: " ";
+}
+
+ul.aa {
+  list-style: cs-numeric;
+}
+@counter-style circled-digits {
+  system: cyclic;
+  symbols: А Б В Г Д Е І Ї Ж З И;
+  suffix: " ";
+}
+
+ul.cc {
+  list-style: circled-digits;
+}
