@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+body{
+    background-color: lightpink;
+}
+p{
+    font-size: 50px;
+    color: steelblue;
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;
+}
+table{
+     border: double 2px blue;
+     font-size: 24px;
+     width: 50%;
+     border-collapse: separate;
+     margin: auto;
+}
+th,td{
+     border: solid 1px indigo;
+     height: 1cm;
+     width: 25%;
+}
+th:hover{
+        background-color: lightgrey;
+}
+td:hover{
+      text-align: center;
+     background-image: url(https://media.tenor.com/KdtU9q5XTkEAAAAC/rainbow.gif);
+     background-size: cover; 
+     font-size: 1.5em; 
+     color: silver;
+     text-transform: uppercase;
+     font-weight: 700;
+}
+tr:nth-child(odd){
+background-color: lightskyblue;
+}
+tr:nth-child(even){
+background-color: lightgoldenrodyellow;
+}
+.fc{
+   border-color: seagreen;
+   vertical-align: bottom;
+}
+caption{
+       font-family: cursive;
+       height: 2cm;
+       font-weight: 900;
+       padding-top: 0.5cm;
+       text-transform: uppercase;
+       background: linear-gradient(to right,red,orange,yellow,grey,blue,indigo,violet);
+}

@@ -1,0 +1,57 @@
+h1{
+    font-weight: 400;
+    font-family: 'Rubik Spray Paint', cursive;
+    text-transform: uppercase;
+    text-align: center;  
+    letter-spacing: 5px;
+}
+p{
+    text-align: justify;
+    text-indent: 24px;
+    line-height: 24px;
+    margin: 0px;
+}
+h2{
+    text-transform: capitalize;
+}
+.Crimea{
+    border: solid 3px orange;
+     float: left;
+}
+.Crimea figcaption{
+ background: #000;
+     color: #fff;
+}
+.Odmap{
+	width: 100;
+     border: solid 3px orange;
+     float: left;
+}
+.Odmap figcaption{
+     background: #000;
+     color: #fff;
+}
+.Kharkov{
+     border: solid 3px orange;
+     float: right;
+}
+.Kharkov figcaption{
+	background: #000;
+	 color: #fff
+}
+.city{
+      border: solid 3px orange;
+     float: left;
+}
+.city figcaption{
+	background: #000;
+	 color: #fff
+}
+.Karazin{
+	 border: solid 3px orange;
+     float: right;
+}
+.Karazin figcaption{
+background: #000;
+	 color: #fff
+}

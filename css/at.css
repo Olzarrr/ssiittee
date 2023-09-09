@@ -1,0 +1,57 @@
+body{
+     background-color: lightsalmon;
+}
+p{
+  font-size: 50px;
+  color: purple;
+  text-align: center;
+}
+marquee{
+       font-size: 40px;
+}
+div.fd{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    animation-name: example1;
+    animation-duration: 5s;
+}
+@keyframes example1{
+    from {background-color: black;}
+    to {background-color: white;}
+}
+div.sd{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    animation-name: example2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example2{
+    0% {background-color: black;}
+    25% {background-color: hotpink;}
+    50% {background-color: pink;}
+    75% {background-color: lightpink;}
+    100% {background-color: white;}
+}
+div.td{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    animation-name: example3;
+    position: relative;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+    font-size: 24px;
+    text-align: center;
+}
+@keyframes example3{
+    0% {background-color: black; left: 0px; top: 0px;}
+    25% {background-color: hotpink; left: 300px; top: 0px;}
+    50% {background-color: pink; left: 300px; top: 300px;}
+    75% {background-color: lightpink; left: 0px; top: 300px;}
+    100% {background-color: white; left: 0px; top: 0px;}
+}

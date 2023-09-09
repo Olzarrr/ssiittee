@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+body{
+    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470);
+    background-size: cover;
+}
+p{
+     font-size: 50pt;
+}
+.p1{
+     font-size: 50pt;
+     background: repeating-linear-gradient(45deg, pink 10%, hotpink 20%);
+     text-align: center;
+     color: #123456;
+}
+.p2{
+   font-family: sans-serif;
+}
+.p3{
+   font-family: cursive;
+}
+.p4{
+   font-family: "Lucida Console", Courier, monospace;
+}
+.p5{
+font-family: 'Caveat', cursive;
+}
+.p6{
+font-family: 'Lobster', cursive;
+}
+.p7{
+font-family: 'Playfair Display SC', serif;
+color: violet;
+}
+.p8{
+font-family: 'Bad Script', cursive;
+color: violet;
+}
+.p9{
+font-family: 'Rubik Dirt', cursive;
+color: violet;
+}
+.p10{
+font-family: 'Rubik Moonrocks', cursive;
+color: violet;
+}
+.p11{
+font-family: 'Yuji Boku', serif;
+color: violet;
+}
+.p12{
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-style: dashed;
+    text-decoration-color: red;
+}
+.p13{
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-style: wavy;
+    text-decoration-color: hotpink;
+}
+.p14{
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-style: dotted;
+    text-decoration-color: blue;
+}
+.p15{
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-style: double;
+    text-decoration-color: darkorange;
+}
+.p16{
+   font-family: cursive;
+   font-weight: 700;
+}
+.p17{
+   font-family: cursive;
+   font-weight: 100;
+}
+.p18{
+   font-family: "Lucida Console", Courier, monospace;
+   font-style: italic;
+}
+.p19{
+   font-family: "Lucida Console", Courier, monospace;
+   font-style: italic;
+   text-emphasis: 'x';
+}
+.p20{
+   font-family: "Lucida Console", Courier, monospace;
+   font-style: italic;
+   text-emphasis: filled double-circle #ffb703;
+}
+.p21{
+   font-family: "Lucida Console", Courier, monospace;
+   font-style: italic;
+   text-emphasis: "\25B2";
+}
+.p22{
+    text-shadow: 2px 2px red, 4px 4px green;
+}
+.p23{
+    text-shadow: 2px -2px red, 4px -4px 7px green;
+}
+.p24{
+    text-shadow: 3px -3px blue, 5px -5px 8px yellow;
+}
+.p25{
+    text-shadow: 3px 3px pink, 5px 5px 8px violet;
+}
+.letter{
+       font-size: 1.5em;
+       font-family: 'Rubik Moonrocks', cursive;
+       color: silver;
+}
+.letter1{
+	font-size: 1.5em;
+       font-family: 'Caveat', cursive;
+       color: hotpink;
+}
